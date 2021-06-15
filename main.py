@@ -21,7 +21,7 @@ def decodethis(data):
 
 
 HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
-port = 7777
+port = 5027
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('', port))
 s.listen(1)
